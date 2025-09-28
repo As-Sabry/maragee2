@@ -1,0 +1,165 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+header {
+  max-height: 8vh;
+  background-color: hsl(24, 88%, 42%);
+  color: white;
+  padding: 18px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.hero {
+  height: 650px;
+  text-align: center;
+  background-image: url(./img/1.png);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  color: white;
+
+}
+
+.hero h1 {
+  font-size: 34px;
+  margin-bottom: 0px;
+
+}
+
+.hero h2 {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.bac {
+  background: hsl(218, 95%, 15%);
+}
+
+.belard {
+  max-width: 100%;
+  direction: rtl;
+}
+
+h5 {
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.books-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.book-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(123, 32, 32, 0.1);
+  margin: 10px;
+  width: 220px;
+  padding: 15px;
+  text-align: center;
+}
+
+.books-section .but-one {
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 5px;
+  color: #f2f2f2;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.books-section .but-two {
+  background-color: #dc3545;
+  border: none;
+  border-radius: 5px;
+  color: #f2f2f2;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+footer {
+  background-color: hsl(217.96deg 100% 9.61%);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  border-radius: 5px;
+  color: #000000;
+  font-size: 17px;
+  font-weight: 600;
+  direction: rtl;
+}
+
+button {
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 5px;
+  color: #f2f2f2;
+  font-size: 17px;
+  font-weight: 600;
+  direction: rtl;
+}
+
+.xx {
+  font-size: 15px;
+  font-weight: 600;
+
+}
+
+@media (max-width: 600px) {
+
+  nav a{
+    width: 25%;
+    margin: 10px;
+  }
+
+  .hero {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .hero p{
+    margin-bottom: 100px;
+  }
+
+  .book-card {
+    max-width: 90%;
+  }
+
+}

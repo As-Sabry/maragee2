@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8">
+  <title>إضافة منتج</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header  >
+    <nav>
+      <a href="index.html"> الصفحه الرئيسية </a>
+      <a href="search.html">البحث</a>
+      <a href="add-product.html">إضافة منتج</a>
+      <a href="cart.html">السلة</a>
+    </nav>
+  </header>
+  <form class="books-section" id="product-form">
+    <input class="form-control my-2" type="text" id="title" placeholder="اسم الماده " required>
+    <input class="form-control my-2" type="text" id="field" placeholder=" السنه الدراسيه " required>
+    <input class="form-control my-2" type="number" id="price" placeholder="السعر بالجنيه" required>
+    <input class="form-control my-2" type="text" id="account" placeholder="رقم المحفظة أو الحساب البنكي" required>
+    <label>اختر ملف المنتج:</label>
+    <input type="file" id="fileInput" accept=".pdf,.docx,.ppt,.epub" required>
+    <button class="bac" type="submit">إضافة</button>
+  </form>
+  <!-- ******************** -->
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>
