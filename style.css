@@ -28,7 +28,7 @@ nav a {
 .hero {
   height: 650px;
   text-align: center;
-  background-image: url(./img/1.png);
+  background-image: url(1.png);
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
